@@ -4,16 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
     <title>Fund Me Website</title>
 </head>
 <body>
-    Fund Me App
+    <div class="container">
+        <img class="container-img" src="hands.jpg" alt="hands-img" />
+        <div class="section">
+            <h1 class="section-heading">Fund Me App</h1>
+            <hr>
+            <button class="section-btn" id = "connectButton">Connect</button>
+            <div class="section-input">
+                <input class="section-place" id = "ethAmount" placeholder="0.1"/>    
+                <button class="section-fund" id = "fundButton"> Fund </button>
+            </div>
+            <button class="section-btn" id = "balanceButton">Balance</button>
+            <button class="section-btn" id = "withdrawButton">Withdraw</button>
+        </div>
+    </div>
     <script src = "./index.js" type = "module"> </script>
-    <button id = "connectButton">Connect</button>
-    <button id = "fundButton"> Fund </button>
-    <input id = "ethAmount" placeholder="0.1"/>
-
-    <button id = "balanceButton">Balance</button>
-    <button id = "withdrawButton">Withdraw</button>
-</body> 
+</body> 
 </html>
